@@ -1,0 +1,26 @@
+
+class Solution {
+public:
+// time complexity = o(n)
+// space conplexity = o(log(n))
+    void dfs(TreeNode* root, map<TreeNode*, bool>&visited){
+        if(root==NULL){
+            return;
+        }
+        if(visited[root]){
+            return;
+        }
+        visited[root] = true;
+        TreeNode* temp = root->left;
+        root->left = root->right;
+        root->right = temp;
+        dfs(root->left, visited);
+        dfs(root->right, visited);
+    }
+    TreeNode* invertTree(TreeNode* root) {
+        map<TreeNode*, bool>visited;
+        dfs(root, visited);
+        return root;
+        
+    }
+};
