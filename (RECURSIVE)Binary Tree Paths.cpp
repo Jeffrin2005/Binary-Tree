@@ -1,7 +1,7 @@
 
 /**
 time complexity = o(n)
-space comnplexity = o(n);
+space comnplexity = o(h);
  */
 class Solution {
     private:
