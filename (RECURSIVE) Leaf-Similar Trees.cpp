@@ -1,6 +1,6 @@
 /**
  time complexity = o(n1 + n2)
- space complexity = O(n1 + n2)
+ space complexity = O(L1 + L2)
  */
 class Solution {
 private:
