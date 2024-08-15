@@ -1,7 +1,7 @@
 
 /**
 time compleixty = O(n)
-space complexity = o(n)
+space complexity =     o(n)
  */
 class Solution {
 public:
