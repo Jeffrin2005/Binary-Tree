@@ -4,7 +4,6 @@
    //       / \   / \
   //       3   4 4   3
 // time comp = o(n) space comp = o(n)
-
 // Root Node: The root is 1, and we start by enqueuing its left child (2) and right child (2).
 // First Iterative Check: We dequeue two nodes at a time, first left and right.
 // This compares the left subtree of the left child (3 from the left 2) with the right subtree of the right child (3 from the right 2).
