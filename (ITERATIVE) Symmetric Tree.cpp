@@ -13,6 +13,7 @@
 // Since both are 4, they are also mirrors of each other at this node.
 
 class Solution {
+
 public:
     bool isSymmetric(TreeNode* root) {
         if(root == NULL) return true; // An empty tree is symmetric
